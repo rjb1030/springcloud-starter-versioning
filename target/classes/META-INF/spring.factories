@@ -1,0 +1,5 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+	com.graydeploy.springcloud.versioning.config.VersioningConfiguration,\
+    com.graydeploy.springcloud.versioning.feign.VersioningFeighConfiguration,\
+    com.graydeploy.springcloud.versioning.zuul.VersioningZuulConfiguration

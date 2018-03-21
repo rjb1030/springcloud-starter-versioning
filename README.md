@@ -1,0 +1,1 @@
+"# springcloud-starter-versioning" 
