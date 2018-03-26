@@ -6,7 +6,7 @@
 
     <dependency>
         <groupId>com.graydeploy.springcloud.versioning</groupId>
-        <artifactId>springcloud-versioning</artifactId>
+        <artifactId>springcloud-starter-versioning</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
     
@@ -25,7 +25,7 @@
 
     <dependency>
         <groupId>com.graydeploy.springcloud.versioning</groupId>
-        <artifactId>springcloud-versioning</artifactId>
+        <artifactId>springcloud-starter-versioning</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
     
