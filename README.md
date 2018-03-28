@@ -52,7 +52,7 @@
         return new RequestVersionExtractor.Default();
     }
     
-如http://127.0.0.1:8080/springcloud-provider/hello?version=release-20180301
+如http://127.0.0.1:8080/springcloud-provider/hello?rq_version=release-20180301
 ##### b. Header参数控制版本
 配置：
 
@@ -61,7 +61,7 @@
         return new RequestVersionExtractor.RequestHeaderVersionExtractor();
     }
         
-如请求服务时header添加 gray_version=release-20180301
+如请求服务时header添加 rq_version=release-20180301
             
 ##### c. 配置文件映射服务名和版本（默认这个策略）
 配置文件添加配置文件：
