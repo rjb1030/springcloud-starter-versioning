@@ -34,14 +34,13 @@
         @RibbonClient(name = "provider",configuration = FeignClientConfigduration.class),
         @RibbonClient(name = "provider2",configuration = FeignClientConfigduration.class)
     })
-    或通过配置指定
+    或通过配置指定  
         provider: 
             ribbon: 
-                NFLoadBalancerRuleClassName: VersioningZoneAvoidanceRule（类全路径）
-                
+                NFLoadBalancerRuleClassName: VersioningZoneAvoidanceRule（类全路径）  
         provider2: 
             ribbon: 
-                NFLoadBalancerRuleClassName: VersioningZoneAvoidanceRule（类全路径）
+                NFLoadBalancerRuleClassName: VersioningZoneAvoidanceRule（类全路径）  
                 
 #### 2.提供多种版本控制策略
 
