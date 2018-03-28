@@ -37,10 +37,10 @@
     或通过配置指定
     provider:
         ribbon:
-            NFLoadBalancerRuleClassName:com.graydeploy.springcloud.versioning.ribbon.loadbalancer.VersioningZoneAvoidanceRule
+            NFLoadBalancerRuleClassName: com.graydeploy.springcloud.versioning.ribbon.loadbalancer.VersioningZoneAvoidanceRule
     provider2:
         ribbon:
-            NFLoadBalancerRuleClassName:com.graydeploy.springcloud.versioning.ribbon.loadbalancer.VersioningZoneAvoidanceRule
+            NFLoadBalancerRuleClassName: com.graydeploy.springcloud.versioning.ribbon.loadbalancer.VersioningZoneAvoidanceRule
 #### 2.提供多种版本控制策略
 
 ##### a. URL query参数控制版本 
